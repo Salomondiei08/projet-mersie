@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+body::before{
+    display: block;
+    content: '';
+    height: 150px;
+}
+body{
+
+    max-width: 1920px;
+    margin: auto;
+
+}
+body,a{
+    font-family: 'Poppins', sans-serif;
+    color: #111;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+   
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    background-color: #fff;
+    height: 95px;
+}
+
+.logo-size{
+    height: 90px;
+    width: 100px;
+}
+
+.container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.devise{
+    font-size: 9px;
+}
+
+.first-text{
+    font-size: 30px;
+}
+
+.same{
+    background-color: orange;
+    border: none;
+}
+
+.inputfield input{
+    
+    background-color: #f0f0f0;
+    width: 100%;
+    height:55px;
+    margin: 10px 0;
+    border-radius:55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 .4rem;
+    
+}
+
+.inputfield input{
+background: none;
+outline: none;
+border-color: orange;
+font-weight:600;
+line-height: 1;
+font-size: 1.1rem;
+}
+
+.inputfi{
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
